@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url('assets/plant.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
