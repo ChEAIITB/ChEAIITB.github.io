@@ -555,6 +555,7 @@
         height: 68px;
         margin-left: 22px;
         font-size: 39px;
+        margin-right : -755px ;
     }
         .year .cn_publications{
             display: inline-block;
