@@ -109,37 +109,41 @@ ul li a:hover{
 }
 .form{
     width: 1300;
-    height: 100px;
-    background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%);
+    height: 150px;
+    background:linear-gradient(to left, rgba(0,0,0,0.7)100% ,rgba(0,0,0,0.7)100%);
     position: relative;
-    left: 0px;
-    bottom: 0px;
-    top: -20px;
     text-align: center;
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
+    bottom: -10px;
     align-items: center;
-    margin-top: 30px;
+    margin-bottom: 0px;
 }
 .form h2{
     width: 437px;
-    font-family: sans-serif;
+    font-family: varela;
     text-align: center;
     color: #fff;
     font-size: 26px;
     /* background-color: #fff; */
     border-radius: 10px;
-    margin: 2px;
+    margin: 0px;
     padding: 8px;
     align-items: center;
-    margin-left: 505px;
+    margin-left: 536px;
     margin-right: 0;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+    bottom: 0px;
+}
+.form h2 img{
+    width: 82px;
+    height: 50px;
+    font-family: varela;
+    text-align: center;
 }
 .form input{
-    bottom: 0px;
     width: 240px;
     height: 35px;
     background: transparent;
@@ -151,7 +155,7 @@ ul li a:hover{
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-    font-family: sans-serif;
+    font-family: varela;
 }
 .form input:focus{
     outline: none;
@@ -341,13 +345,17 @@ ul li a:hover{
         margin-left: 329px;
             margin-top: 21px;
     }
-    .form{
-        width: 1161px;
-    top: -7px;
-    left: 68px;    }
-  .form h2{
-    margin-left: 385px;
-    }   
+      .form{
+        left: 0px;
+        width: 1380px;
+        margin-top: -1px;
+        }
+        .form h2{
+            font-size: 19px;
+        margin-left: 478px;
+            margin-top: 5px;
+        }
+}   
 }
 @media screen and (min-width: 601px) and (max-width: 830px) {
     /*For tablet*/
