@@ -396,6 +396,10 @@ body {
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .hamburger {
         display: block;
+        position: fixed;
+        right: 5%;
+        top: 1.5rem;
+        z-index: 1001;
     }
     
     .nav-menu {
@@ -470,6 +474,10 @@ body {
 @media screen and (max-width: 575px) {
     .hamburger {
         display: block;
+        position: fixed;
+        right: 5%;
+        top: 1.5rem;
+        z-index: 1001;
     }
     
     .nav-menu {
