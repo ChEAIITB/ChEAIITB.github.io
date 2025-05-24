@@ -7,7 +7,6 @@ body{
      background:linear-gradient(to left, rgba(0,0,0,0.9)100% ,rgba(0,0,0,0.7)100%),url("plant.jpeg");
      background-size: cover;
      -webkit-backface-visibility: hidden;
-     backface-visibility: hidden;
      background-repeat: no-repeat;
      background-attachment: fixed;
  }
@@ -95,86 +94,38 @@ ul li a:hover{
     background-color: white;
 }
 
-.blogs {
-  max-width: 960px;
-  margin: 3rem auto;
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 12px;
+.blogs{
+    align-items: center;
+    /* float: right; */
+    margin-left: 200px;
 }
 .blogs h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-family: Arial, sans-serif;
-  color: #fff;
+    margin-bottom: -1rem;
+    margin-top: 3rem;
+    margin-left: 460px;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 35px;
 }
-
-.blogs span {
-  color: #ff7200;
+.blogs span{
+    color: #ff7200;
 }
-.heading h2 {
-  font-size: 2rem;
-  color: #ff7200;
-  text-align: center;
-  margin: 2rem 0 1rem;
+.blog-container{
+    position: relative;
+    display: grid;
+    width: 800px;
+    text-align: justify;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 2.9rem;
+    padding-left: -20px;
+    margin-left: -10px;
 }
-
-.blog-container {
-  margin: 2rem 0;
-}
-
-.blog-title {
-  font-size: 2rem;
-  color: #ff7200;
-  margin-bottom: 1rem;
-}
-
-.blog-intro {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #eee;
-  text-align: justify;
-}
-
-.blog-content h3 {
-  font-size: 1.5rem;
-  color: #ffa94d;
-  margin-top: 2rem;
-}
-
-.blog-content ul {
-  margin: 1rem 0 1rem 1.5rem;
-  padding-left: 1rem;
-  color: #ddd;
-}
-
-.blog-content ul li {
-  margin-bottom: 0.5rem;
-  color: #ccc;
-  line-height: 1.5;
-}
-
-.blog-content p {
-  font-size: 1rem;
-  color: #ccc;
-  line-height: 1.6;
-  text-align: justify;
-}
-
 .blog-container img  {
     height: 280px;
     width: 350px;
     margin-left: 400px;
     margin-top: 10px;
-}
-.head-h1{
-    color: #932525;
-    font-size: 3rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.para-first{
-    color: #ce6868;
-    font-size: 1rem;
 }
 .blog-container .blogs-box{
     position:relative;
