@@ -335,7 +335,8 @@ ul li a:hover{
 .event-container{
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 1.5rem;
     padding-left: 100px;
