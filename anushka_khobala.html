@@ -3,148 +3,102 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ChEA-IITB | Anushka Khowala</title>
-  <link rel="stylesheet" href="tanmay_lodha.css">
+  <link rel="stylesheet" href="anushka_khobala.css">
   <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <style>
-    .blog-container p {
-      font-family: valera;
-    }
-    @font-face {
-      font-family: tesla;
-      src: url('TESLA.ttf');
-    }
-    .blogs span {
-      font-family: tesla;
-    }
-    .gallery h3 {
-      text-align: center;
-      font-family: tesla;
-      font-size: 2rem;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
-    .gallery .top-img img {
-      width: 100%;
-      max-width: 700px;
-      margin: 0 auto 30px;
-      display: block;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(255, 111, 0, 0.3);
-    }
-    .gallery .grid-imgs {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-bottom: 40px;
-    }
-    .gallery .grid-imgs img {
-      width: 250px;
-      height: 170px;
-      object-fit: cover;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    .str{
-        color: #09eb89;
-        font: 1em sans-serif;
-    }
-    .glry{
-        color: #00fef6;
-    }
-  </style>
 </head>
 <body>
+  <style>
+    .q{
+      color: brown;
+    }
+  </style>
   <div class="main">
-    <div class="navbar">
-      <div class="icon">
-        <h2 class="logo"><a href="index.html"><img src="cheaorange.png" height="93" width="131" /></a></h2>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="cheaorange.png" alt="ChEA Logo" />
+      </a>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <header>
-        <div class="menu">
-          <ul class="nav-menu">
-            <li class="nav-item" id="home"><a href="index.html" class="nav-link">HOME</a></li>
-            <li class="nav-item" id="events"><a href="events25.html" class="nav-link">EVENTS</a></li>
-            <li class="nav-item" id="blogs"><a href="blogs1.html" class="nav-link">BLOGS</a></li>
-            <li class="nav-item" id="publications"><a href="publications25.html" class="nav-link">PUBLICATIONS</a></li>
-            <li class="nav-item" id="links"><a href="links.html" class="nav-link">LINKS</a></li>
-            <li class="nav-item" id="contacts"><a href="contacts25.html" class="nav-link">CONTACT</a></li>
-            <li class="nav-item" id="facad"><a href="facad23.html" class="nav-link">FACAD</a></li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-      </header>
-      <script src="index.js"></script>
-    </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="events25.html">EVENTS</a></li>
+        <li><a href="blogs1.html" class="active">BLOGS</a></li>
+        <li><a href="publications25.html">PUBLICATIONS</a></li>
+        <li><a href="links.html">LINKS</a></li>
+        <li><a href="contacts25.html">CONTACT</a></li>
+        <li><a href="facad23.html">FACAD</a></li>
+      </ul>
+    </nav>
 
-    <section class="blogs" id="blog">
-      <h2>ChEA<span> BLOGS</span></h2>
-      <div class="blogs-layer">
-        <h4>Anushka Khowala | Hindustan Unilever Limited</h4>
-      </div>
-
-      <div class="blog-container">
+    <section class="blog">
+      <h2>ChEA<span>BLOGS</span></h2>
+      <div class="blog-header">
+        <h3>Anushka Khowala | Hindustan Unilever Limited</h3>
         <img src="anushka0_25.jpg" alt="Anushka Khowala">
         <p>Hi, I am Anushka Khowala, 4th year student from the Chemical department. I interned in Hindustan Unilever over the summer in the R&D domain.</p>
       </div>
 
-      <div class="blog-c1">
-        <p><strong class="str"> Q-: What was your motivation for the internship and what was the recruitment process like?</strong></p>
-        <p>I was curious about how research works in the FMCG space and wanted to explore that side of things. The recruitment process was quite straightforward. We applied for the IAF with our resumes and a form. Almost everyone got selected for a basic aptitude and logical reasoning test along with a Hirevue interview. After that, around 10 people were shortlisted for interviews. Many people were waitlisted but they never opened up the waitlist. My interview was mostly HR-based along with some technical questions around one of my core projects.</p>
+      <div class="blog-section">
+        <p  class="pare"><span class="q">Q:</span>What was your motivation for the internship and what was the recruitment process like?</p>
+        <p>I was curious about how research works in the FMCG space and wanted to explore that side of things. The recruitment process was quite straightforward. We applied for the IAF with our resumes and a form. Almost everyone got selected for a basic aptitude and logical reasoning test alongwith a Hirevue interview. After that, around 10 people were shortlisted for interviews. Many people were waitlisted but they never opened up the waitlist. My interview was mostly HR-based along with some technical questions around one of my core projects.</p>
       </div>
 
-      <div class="blog-c2">
-        <p><strong class="str">Q-: Can you explain your role in the internship? What jobs were you expected to perform and what projects were you involved with?</strong></p>
+      <div class="blog-section">
+        <p class="pare"><span class="q">Q:</span> Can you explain your role in the internship? What jobs were you expected to perform and what projects were you involved with?</p>
         <p>I worked on building an AI tool to assist with surfactant formulation. My main job was to create machine learning models that could predict properties like viscosity and mildness, and then build an interactive assistant using agentic AI. I got to work on everything — data, models, backend, frontend — basically the entire pipeline. I was in touch with many different stakeholders, but was also given a lot of freedom to lead the project and figure out how to make it work.</p>
       </div>
 
-      <div class="blog-c2">
-        <p><strong class="str">Q-: What were the most exciting aspects of the internship? What were the most challenging aspects?</strong></p>
-        <p>The most exciting part was seeing the real impact of my work. I got to demo the tool to senior leaders at HUL and their feedback was super encouraging. It was satisfying to know that something built in just a few weeks could actually be useful in the long run. The biggest challenge was learning everything from scratch — I had no prior experience in ML or agentic AI. But what made it easier was getting to learn directly from experienced people at HUL rather than relying on tutorials or books.</p>
+      <div class="blog-section">
+        <p class="pare"><span class="q">Q:</span> What were the most exciting aspects of the internship? What were the most challenging aspects?</p>
+        <p>The most exciting part was seeing the real impact of my work. I got to demo the tool to senior leaders at HUL and their feedback was super encouraging. It was satisfying to know that something built in just a few weeks could actually be useful in the long run. The biggest challenge was learning everything from scratch — I had no prior experience in ML or agentic AI. But what made it easier was getting to learn directly from experienced people at HUL rather than relying on tutorials or books.
+</p>
       </div>
 
-      <div class="blog-c3">
-        <p><strong class="str">Q-: What was the culture like in your office? How did the company treat the interns and what were you provided with?</strong></p>
+      <div class="blog-section">
+        <p class="pare"><span class="q">Q:</span> What was the culture like in your office? How did the company treat the interns and what were you provided with?
+</p>
         <p>I was at the Bangalore R&D centre and honestly, the culture surprised me. I expected a more formal, corporate vibe, but it was actually really warm and welcoming. People were approachable and always happy to help, no matter how senior or busy they were.</p>
-
-        <p><strong class="str"> Q-: What were your key learnings from the internship?</strong></p>
-        <p>I got to see how R&D directly helps solve real-world problems and how companies are starting to use AI in a smarter, more integrated way. It also made me more curious about research and innovation as a whole. Overall, it was a great experience. Good luck to future students!</p>
+        <p class="pare"><span class="q">Q:</span> What were your key learnings from the internship?
+</p>
+        <p>I got to see how R&D directly helps solve real-world problems and how companies are starting to use AI in a smarter, more integrated way. It also made me more curious about research and innovation as a whole.</p>
       </div>
 
-      <div class="gallery">
-        <h3 class="glry">Gallery</h3>
-        <div class="top-img">
-          <img src="anushka1_25.jpg" alt="Top Highlight Image">
-        </div>
-        <div class="grid-imgs">
-          <img src="anushka2_25.jpg" alt="Gallery 2">
-          <img src="anushka3_25.jpg" alt="Gallery 3">
-          <img src="anushka0_25.jpg" alt="Gallery 4">
-        </div>
+      <div class="blog-image-paragraph">
+        <img src="anushka1_25.jpg" alt="Anushka at HUL">
+        <p>Overall, it was a great experience. Good luck to future students!</p>
       </div>
 
-      <div class="btn">
-        <button class="cn_publications"><a href="chaitanya_ramprasad.html" target="_blank">Prev. Article</a></button>
-        <button class="cn_publications"><a href="anagha.html" target="_blank">Next. Article</a></button>
+      <div class="nav-buttons">
+        <a href="tanmay_lodha.html" class="btn">Prev</a>
+        <a href="prashabdhi.html" class="btn">Next</a>
       </div>
 
-      <div class="form">
-        <div class="icons">
+      <footer class="footer">
+        <div class="social-icons">
           <a href="https://www.facebook.com/cheaiitb" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
           <a href="https://instagram.com/chea_iitb?utm_medium=copy_link" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
           <a href="https://www.linkedin.com/company/chea-iit-bombay/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
           <a href="https://www.youtube.com/@chemicalengineeringassocia2744/about" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-          <a href="https://twitter.com/CheEnggIITB?t=YFUGMVconswtD1NIPyEegQ&s=09" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="https://twitter.com/CheEnggIITB" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
         </div>
-        <h2>Website maintained by <img src="cheaorange.png" height="98" width="132" /></h2>
-      </div>
+        <p>Website maintained by <img src="cheaorange.png" alt="Logo" height="60"></p>
+      </footer>
     </section>
   </div>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>

@@ -2,100 +2,49 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChEA-IITB | Prashabdhi Athawale</title>
-  <link rel="stylesheet" href="tanmay_lodha.css">
+  <title>ChEA-IITB | Prashabdhi</title>
+  <link rel="stylesheet" href="anushka_khobala.css">
   <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <style>
-    .blog-container p {
-      font-family: valera;
-    }
-    @font-face {
-      font-family: tesla;
-      src: url('TESLA.ttf');
-    }
-    .blogs span {
-      font-family: tesla;
-    }
-    .gallery h3 {
-      text-align: center;
-      font-family: tesla;
-      font-size: 2rem;
-      margin-top: 40px;
-      margin-bottom: 20px;
-    }
-    .gallery .top-img img {
-      width: 100%;
-      max-width: 700px;
-      margin: 0 auto 30px;
-      display: block;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(255, 111, 0, 0.3);
-    }
-    .gallery .grid-imgs {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-bottom: 40px;
-    }
-    .gallery .grid-imgs img {
-      width: 250px;
-      height: 170px;
-      object-fit: cover;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    .str{
-        color: #09eb89;
-        font: 1em sans-serif;
-    }
-    .glry{
-        color: #00fef6;
-    }
-  </style>
 </head>
 <body>
+  <style>
+    .q{
+      color: brown;
+    }
+  </style>
   <div class="main">
-    <div class="navbar">
-      <div class="icon">
-        <h2 class="logo"><a href="index.html"><img src="cheaorange.png" height="93" width="131" /></a></h2>
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="cheaorange.png" alt="ChEA Logo" />
+      </a>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <header>
-        <div class="menu">
-          <ul class="nav-menu">
-            <li class="nav-item" id="home"><a href="index.html" class="nav-link">HOME</a></li>
-            <li class="nav-item" id="events"><a href="events25.html" class="nav-link">EVENTS</a></li>
-            <li class="nav-item" id="blogs"><a href="blogs1.html" class="nav-link">BLOGS</a></li>
-            <li class="nav-item" id="publications"><a href="publications25.html" class="nav-link">PUBLICATIONS</a></li>
-            <li class="nav-item" id="links"><a href="links.html" class="nav-link">LINKS</a></li>
-            <li class="nav-item" id="contacts"><a href="contacts25.html" class="nav-link">CONTACT</a></li>
-            <li class="nav-item" id="facad"><a href="facad23.html" class="nav-link">FACAD</a></li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-      </header>
-      <script src="index.js"></script>
-    </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="events25.html">EVENTS</a></li>
+        <li><a href="blogs1.html" class="active">BLOGS</a></li>
+        <li><a href="publications25.html">PUBLICATIONS</a></li>
+        <li><a href="links.html">LINKS</a></li>
+        <li><a href="contacts25.html">CONTACT</a></li>
+        <li><a href="facad23.html">FACAD</a></li>
+      </ul>
+    </nav>
 
-    <section class="blogs" id="blog">
-      <h2>ChEA<span> BLOGS</span></h2>
-      <div class="blogs-layer">
-        <h4>Prashabdhi Athawale | Hindustan Unilever Limited</h4>
-      </div>
-
-      <div class="blog-container">
-        <img src="prash0_25.jpg" alt="prashabdhi">
+    <section class="blog">
+      <h2>ChEA<span>BLOGS</span></h2>
+      <div class="blog-header">
+        <h3>Prashabdhi Athawale | Hindustan Unilever Limited</h3>
+        <img src="prash0_25.jpg" alt="Anushka Khowala">
         <p>Heyy all! I’m Prashabdhi, a fourth-year undergraduate from the Chemical Engineering department at IIT Bombay. I recently completed an 8-week internship at Hindustan Unilever Limited (HUL) as a Supply Chain Intern under the Unilever Leadership Internship Program (ULIP).  You’ve probably heard of (and used) brands like Taj Mahal Tea, Bru Coffee, Vaseline . Yes, HUL is the FMCG giant behind these household names.  So, why did I choose to intern in the FMCG sector? If you're currently debating which domain to explore or whether FMCG is the right fit for you, you're not alone, I had the same questions. In this blog, I’ll take you through my entire journey: from the application and interview process all the way to what it was actually like working at HUL.</p>
       </div>
 
-      <div class="blog-c1">
-        <p><strong class="str"> Q-: What was your motivation for the internship and what was the recruitment process like? and How did you prepped for this role?</strong></p>
+      <div class="blog-section">
+        <p  class="pare"><span class="q">Q:</span>What was your motivation for the internship and what was the recruitment process like?</p>
         <p>So like any other third-year student, I started off by making 3–4 different versions of my resume, tailored for profiles like Product Management, Supply Chain (FMCG), and a few others. At that point, I wasn’t targeting any specific domain.
 
 For preparation, I focused on general HR questions, reviewed my resume thoroughly (multiple times!), and gave mock interviews with friends. After getting shortlisted for HUL, I immediately reached out to seniors to understand the next rounds of the process.
@@ -114,8 +63,8 @@ If you’ve done all this, you’re good to go.
 </p>
       </div>
 
-      <div class="blog-c2">
-        <p><strong class="str">Q-: Can you explain your role in the internship? What jobs were you expected to perform and what projects were you involved with?</strong></p>
+      <div class="blog-section">
+        <p class="pare"><span class="q">Q:</span> Can you explain your role in the internship? What jobs were you expected to perform and what projects were you involved with?</p>
         <p>I worked in the Supply Chain domain, and my project revolved around energy reduction, cost optimization, and CO2 emission reduction - essentially contributing to HUL’s broader sustainability goals.
 
 Each intern is assigned a tutor, buddy, and coach, with the tutor being your main point of contact throughout the internship. In some cases, you might need to reach out to your tutor before the internship begins to understand your project charter, which is usually shared about a week in advance.
@@ -138,8 +87,8 @@ After that, if you’re selected, there are two rounds of interviews - the first
 </p>
       </div>
 
-      <div class="blog-c2">
-        <p><strong class="str">Q-:What were the most exciting aspects of the internship? What were the most challenging aspects?</strong></p>
+      <div class="blog-section">
+        <p class="pare"><span class="q">Q:</span> What were the most exciting aspects of the internship? What were the most challenging aspects?</p>
         <p>One of the things I was most excited about was diving into the world of corporate jargon and systems - understanding how a large company like HUL operates from the inside.
 
 But what truly made the experience memorable were the bonds I built with my co-interns. We shared our roadblocks, gave each other updates, and basically lived together for those 8 weeks. From debating over what to eat in the company cafeteria while sticking to our budgets, to taking cabs in the morning and catching locals in the evening to save money (and escape traffic), these small moments became some of my favorite memories from the internship.
@@ -160,8 +109,9 @@ Even though the official timings were from 9 to 5, many of us in the Head Office
 </p>
       </div>
 
-      <div class="blog-c3">
-        <p><strong class="str">Q-: What was the culture like in your office? How did the company treat the interns and what were you provided with?</strong></p>
+      <div class="blog-section">
+        <p class="pare"><span class="q">Q:</span> What was the culture like in your office? How did the company treat the interns and what were you provided with?
+</p>
         <p>Since I was based at the Mumbai Head Office, I spent most of my time on the Supply Chain floor and let me tell you, it’s a seriously high-energy space. The people there are constantly busy, working from around 9 AM to 6 PM, often juggling multiple tasks, coordinating not only within the office but also with 27 different factories across the country. It was in this fast-paced environment that I truly understood how demanding and critical supply chain operations are. Supply chain is the heartbeat of factory operations, and witnessing that first-hand was eye-opening.
 
 As an intern though, I never felt like I was out of place. In fact, everyone was incredibly welcoming. The moment you introduce yourself as a ULIP intern, people are very kind to help. They’re genuinely interested in your project, and will guide you on whom to reach out to- whether it’s a senior in a factory, someone from your own college, or another stakeholder in the company. 
@@ -172,8 +122,8 @@ One of the most wholesome things about the Mumbai office is this little traditio
 
 These small rituals made us interns feel like we were part of something bigger. We weren’t just visitors for eight weeks, we were immersed in the culture, and that made the experience all the more fulfilling.
 </p>
-
-        <p><strong class="str"> Q-: What were your key learnings from the internship and any tips you would like to give to your juniors?</strong></p>
+        <p class="pare"><span class="q">Q:</span> What were your key learnings from the internship?
+</p>
         <p>One of my biggest takeaways from the internship was personal growth and self-development. In college, we’re not really used to having a fixed routine but when you’re working at a company like Hindustan Unilever, that changes. You’re expected to stick to a schedule, be accountable, and report your progress regularly to stakeholders. This shift taught me to take ownership of my work, manage my time better, and deliver on deadlines, all while juggling multiple priorities.
 
 Over the course of those eight weeks, I developed a genuine drive to understand my project in depth. I found myself diving into research, applying concepts I had learned in my chemical engineering courses, and developing quick problem-solving skills to keep up with the pace. One of my key learnings was the importance of exploring multiple approaches to a problem- the company actively encourages you to think out of the box and propose innovative, practical solutions.
@@ -182,40 +132,43 @@ Another major learning was the value of open communication. There were many time
 
 On the technical front, I went from barely knowing how the supply chain works to gaining a comprehensive understanding of how FMCG factories operate - from procurement and production to delivery. I also learned how a massive organization like HUL functions at the head office level, how decisions are made, how cross-functional teams work together, and how structured the internal processes are.
 
-In short, this internship gave me a blend of technical, managerial, and soft skills that I know will stay with me. It wasn’t just about completing a project - it was about growing into a more confident, responsible, and curious version of myself.
+
 
 
 </p>
       </div>
 
-      <div class="gallery">
-        <h3 class="glry">Gallery</h3>
-        <div class="top-img">
-          <img src="prash1_25.jpg" alt="Top Highlight Image">
-        </div>
-        <div class="grid-imgs">
-          <img src="prash2_25.jpg" alt="Gallery 2">
-          <img src="prash3_25.jpg" alt="Gallery 3">
-          <img src="prash0_25.jpg" alt="Gallery 4">
-        </div>
+      <div class="blog-image-paragraph">
+        <img src="prash1_25.jpg" alt="Anushka at HUL">
+        <p>In short, this internship gave me a blend of technical, managerial, and soft skills that I know will stay with me. It wasn’t just about completing a project - it was about growing into a more confident, responsible, and curious version of myself.</p>
       </div>
 
-      <div class="btn">
-        <button class="cn_publications"><a href="chaitanya_ramprasad.html" target="_blank">Prev. Article</a></button>
-        <button class="cn_publications"><a href="anagha.html" target="_blank">Next. Article</a></button>
+      <div class="nav-buttons">
+        <a href="anushka_khobala.html" class="btn">Prev</a>
+        <a href="mohit.html" class="btn">Next</a>
       </div>
 
-      <div class="form">
-        <div class="icons">
+      <footer class="footer">
+        <div class="social-icons">
           <a href="https://www.facebook.com/cheaiitb" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
           <a href="https://instagram.com/chea_iitb?utm_medium=copy_link" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
           <a href="https://www.linkedin.com/company/chea-iit-bombay/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
           <a href="https://www.youtube.com/@chemicalengineeringassocia2744/about" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-          <a href="https://twitter.com/CheEnggIITB?t=YFUGMVconswtD1NIPyEegQ&s=09" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="https://twitter.com/CheEnggIITB" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
         </div>
-        <h2>Website maintained by <img src="cheaorange.png" height="98" width="132" /></h2>
-      </div>
+        <p>Website maintained by <img src="cheaorange.png" alt="Logo" height="60"></p>
+      </footer>
     </section>
   </div>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
